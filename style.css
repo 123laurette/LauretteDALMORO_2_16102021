@@ -1,1 +1,18 @@
-
+@font-face {
+    font-family: Raleway;
+    src: url("font/Raleway-VariableFont_wght.ttf")format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+*
+{
+        font-family: "Raleway", Arial, impact, sans-serif;
+}
+h1, h2, h3, .filtre
+{
+    font-weight: bold;
+}
+*p strong   
+{
+    font-weight: bold;
+}
