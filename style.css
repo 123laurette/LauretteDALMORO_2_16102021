@@ -1,18 +1,128 @@
 @font-face {
     font-family: Raleway;
-    src: url("font/Raleway-VariableFont_wght.ttf")format("truetype");
+    src: url("font/Raleway-Regular.ttf")format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 *
 {
-        font-family: "Raleway", Arial, impact, sans-serif;
+        font-family: "Raleway", Impact, sans-serif;
 }
-h1, h2, h3, .filtre
+h1
+{
+    border: solid red;
+}
+
+h1, h2, h3, .filtre, span, aside
 {
     font-weight: bold;
 }
-p span   
+#bloc_page
 {
-    font-weight: bold;
+    height: 992px;
+    width: 100%;
+}
+.headerliens
+{
+    display: flex;
+    justify-content: space-between;    
+    margin-left: 70%;
+    margin-right: 10%;
+    
+}
+.filtre
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+}
+.cannebiere img, .port img, .mouettes img
+{
+    width: 300px;
+    height: 150px;
+}
+.premiereligne
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0em;
+    margin-right: 3em;
+}
+.mer img, .panier img, .amina img
+{
+    width: 300px;
+    height: 150px;
+}
+.deuxiemeligne
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0em;
+}
+.soleil img, .coeur img, .bleublanc img
+{
+    width: 120px;
+    height: 120px;
+}
+.soleil, .coeur, .bleublanc
+{
+    display: flex;
+    flex-direction: row;
+}
+.description
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+.populaire
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 20em;
+}
+.vieuxport img, .calanques img
+{
+    width: 200px;
+    height: 300px;
+}
+.pomegues img, .frioul img, .dame img, .longchamps img
+{
+    width: 200px;
+    height: 100px;
+}
+.petitephoto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activite
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionhebergementa
+{
+    display: flex;
+    justify-content: space-between;
+}
+.propos, .hebergement, .assistance
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: red solid;
 }
