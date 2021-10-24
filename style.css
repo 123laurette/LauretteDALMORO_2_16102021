@@ -8,11 +8,6 @@
 {
         font-family: "Raleway", Impact, sans-serif;
 }
-h1
-{
-    border: solid red;
-}
-
 h1, h2, h3, .filtre, span, aside
 {
     font-weight: bold;
@@ -88,13 +83,13 @@ h1, h2, h3, .filtre, span, aside
 }
 .vieuxport img, .calanques img
 {
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 450px;
 }
 .pomegues img, .frioul img, .dame img, .longchamps img
 {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
 }
 .petitephoto
 {
@@ -105,7 +100,9 @@ h1, h2, h3, .filtre, span, aside
 .activite
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    
 }
 .sectionhebergementa
 {
@@ -124,5 +121,4 @@ h1, h2, h3, .filtre, span, aside
     width: 80%;
     margin-top: 100px;
     margin-bottom: 100px;
-    border: red solid;
 }
