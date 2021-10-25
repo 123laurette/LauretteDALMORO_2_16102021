@@ -17,13 +17,13 @@ h1, h2, h3, .filtre, span, aside
     height: 992px;
     width: 100%;
 }
-.headerliens
+.lienhebergement
 {
-    display: flex;
-    justify-content: space-between;    
-    margin-left: 70%;
-    margin-right: 10%;
-    
+    margin-left: 65%
+}    
+.lienactivite
+{    
+    margin-left: 8%;
 }
 .filtre
 {
@@ -33,8 +33,8 @@ h1, h2, h3, .filtre, span, aside
 }
 .cannebiere img, .port img, .mouettes img
 {
-    width: 300px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 .premiereligne
 {
@@ -46,8 +46,8 @@ h1, h2, h3, .filtre, span, aside
 }
 .mer img, .panier img, .amina img
 {
-    width: 300px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 .deuxiemeligne
 {
@@ -58,8 +58,8 @@ h1, h2, h3, .filtre, span, aside
 }
 .soleil img, .coeur img, .bleublanc img
 {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
 }
 .soleil, .coeur, .bleublanc
 {
@@ -80,6 +80,10 @@ h1, h2, h3, .filtre, span, aside
     width: 100%;
     height: 60%;
     margin-bottom: 20em;
+}
+.plus_populaires
+{
+    margin-right: 12em;
 }
 .vieuxport img, .calanques img
 {
@@ -121,4 +125,22 @@ h1, h2, h3, .filtre, span, aside
     width: 80%;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+.logo img
+{
+    width: 100px;
+    height: 50px;
+    margin-left: 1em;
+}
+.header
+{
+    display: flex;
+}
+h1, h2
+{
+    font-size: 16px;
+}
+h1+p, .lieu, .filtre, .lienhebergement, .lienactivite, .nbrelogement, span, .sectionhebergementa 
+{
+    font-size: 14px;
 }
