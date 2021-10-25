@@ -231,3 +231,16 @@ h1+p, .lieu, .filtre, .lienhebergement, .lienactivite, .nbrelogement, span, .sec
     width: 234px;
     padding-left: 1em;
 }
+.footer
+{
+    border: red solid;
+    height: 200px;
+}
+a
+{
+    text-decoration: none;
+}
+a:active
+{
+    background-color: yellow;
+}
