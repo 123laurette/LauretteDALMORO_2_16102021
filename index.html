@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset= "utf-8"/>
         <link rel= "stylesheet" href= "style.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         <title> PROJET 2 </title>
     </head>
     <body>
         <div id="bloc_page">
+            <!--................................HEADER...........................-->
         <header class="header">
             <div class="logo">
                 <img src="images/logo/Booki.png" alt="logo Booki">
             </div>
             <nav class="lienhebergement">
-                <p><a href="#">Hébergements</a></p>
+                <p><a href="#lienheberg">Hébergements</a></p>
             </nav>
             <nav class="lienactivite">
-                <p><a href="#">Activités</a></p>
+                <p><a href="#lienactive">Activités</a></p>
             </nav>
         </header>
+        <!--......................................CHAMPS DES FILTRES..........................-->
         <section class="sectionhebergement">
             <div class="hebergement">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -29,51 +32,62 @@
             </div>
             <nav class="filtre">
                 <p>Filtres</p>
-                <p><a href="#">economique</a></p>
-                <p><a href="#">familial</a></p>
-                <p><a href="#">romantique</a></p>
-                <p><a href="#">animaux autorisés</a></p>
+                <div class="lienfiltre"><i class="fas fa-money-bill-wave"></i>
+                <p><a href="#">Economique</a></p></div>
+                <div class="lienfiltre"><i class="fas fa-child"></i>
+                <p><a href="#">Familial</a></p></div>
+                <div class="lienfiltre"><i class="fas fa-heart"></i>
+                <p><a href="#">Romantique</a></p></div>
+                <div class="lienfiltre"><i class="fas fa-dog"></i>
+                <p><a href="#">Animaux autorisés</a></p></div>
             </nav>
                 <!--C EST UNE INFORMATION EN RELATION AVEC LA VILLE SONC SUREMENT A INTEGRER SOUS UNE AUTRE FORME-->
             <div class="nbrelogement">
                 <p>plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
+        <!--..................................EMPLACEMENT PHOTOS HEBERGEMENT..........................-->
         <section class="sectionhebergementa">
             <div class="touthebergement">
-                <div class="titrehebergement"><h2>Hébergements à Marseille</h2></div>
+                <div class="titrehebergement"><h2 id="lienheberg">Hébergements à Marseille</h2></div>
                 <section class="premiereligne">
                     <article class="cannebiere"><a href="#"></a>
+                        <a href="#">
                         <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo Auberge La Cannebière">
                         <div class="nomprix"><p><span>Auberge La Cannebière</span><br/>
-                        Nuit à partir de 25€</p></div>
+                        Nuit à partir de 25€</p></div></a>
                     </article>    
                     <article class="port">
+                        <a href="#">
                         <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo Hotel du port">
                         <div class="nomprix"><p><span>Hôtel du Port</span><br/>
-                        Nuit à partir de 52€</p>
+                        Nuit à partir de 52€</p></div></a>
                     </article>
                     <article class="mouettes" >
+                        <a href="#">
                         <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo Hotel les Mouettes">
                         <div class="nomprix"><p><span>Hôtel Les Mouettes</span><br/>
-                        Nuit à partir de 76€</p>
+                        Nuit à partir de 76€</p></div></a>
                     </article>
                 </section>
                 <section class="deuxiemeligne">
                     <article class="mer">
+                        <a href="#">
                         <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo Hotel de la mer">
                         <div class="nomprix"><p><span>Hôtel de la mer</span><br/>
-                        Nuit à partir de 46€</p>
+                        Nuit à partir de 46€</p></div></a>
                     </article>
                     <article class="panier">
+                        <a href="#">
                         <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo Auberge le panier">
                         <div class="nomprix"><p><span>Auberge Le Panier</span><br/>
-                        Nuit à partir de 23€</p>
+                        Nuit à partir de 23€</p></div></a>
                     </article>
                     <article class="amina">
+                        <a href="#">
                         <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo Hotel chez Amina">
                         <div class="nomprix"><p><span>Hôtel Chez Amina</span><br/>
-                        Nuit à partir de 96€</p>
+                        Nuit à partir de 96€</p></div></a>
                     </article>
                 </section>
                 <!--C EST UN LIEN VERS AUTRE CHOSE DONC SUREMENT A INTEGRER SOUS UNE AUTRE FORME-->
@@ -83,62 +97,70 @@
                 <h2>Les plus populaires</h2>
                 <section class="populaire">
                     <article class="soleil">
+                        <a href="#">
                         <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo Hotel le soleil du matin">
                         <div class="description">
                             <p><span>Hôtel le soleil du matin</span><br/>
-                            Nuit à partir de 128€</p>
-                        </div>    
+                            Nuit à partir de 128€</p></div></a>    
                     </article>
                     <article class="coeur">
+                        <a href="#">
                         <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo Au coeur de l'eau">
                         <div class="description">
                             <p><span>Au coeur de l'eau<br/>Chambres d'hôtes</span><br/>
-                            Nuit à partir de 71€</p>
-                        </div>    
+                            Nuit à partir de 71€</p></div></a>
                     </article>
                     <article class="bleublanc">
+                        <a href="#">
                         <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo Hotel tout bleu et blanc">
                         <div class="description">
                             <p><span>Hôtel tout Bleu et Blanc</span><br/>
-                            Nuit à partir de 68€</p>
-                        </div>    
+                            Nuit à partir de 68€</p></div></a>
                     </article>    
                 </section>
             </div>
         </section>
+        <!--.................................EMPLACEMENT PHOTO ACTIVITE........................-->
         <section class="activitea">
-            <h2>Activités à Marseille</h2>
+            <h2 id="lienactive">Activités à Marseille</h2>
             <section class="activite">
                 <article class="vieuxport">
+                    <a href="#">
                     <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo vieux port"/>
-                    <div class="descriptionactivite"><p><span>Vieux port</span></p></div>
+                    <div class="descriptionactivite"><p><span>Vieux port</span></p></div></a>
                 </article>
                 <div class="petitephoto">
                     <article class="pomegues">
+                        <a href="#">
                         <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo Fort de Pomègues"/>
-                        <div class="descriptionactivitepetite"><p><span>Fort de Pomègues</span></p></div>
+                        <div class="descriptionactivitepetite"><p><span>Fort de Pomègues</span></p></div></a>
                     </article>
                     <article class="frioul">
+                        <a href="#">
                         <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo iles du frioul">
-                        <div class="descriptionactivitepetite"><p><span>Iles du Frioul</span></p></div>
+                        <div class="descriptionactivitepetite"><p><span>Iles du Frioul</span></p></div></a>
                     </article>
                 </div>    
                 <article class="calanques">
+                    <a href="#">
                     <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo parc national des calanques">
-                    <div class="descriptionactivite"><p><span>Parc National des Calanques</span></p></div>
+                    <div class="descriptionactivite"><p><span>Parc National des Calanques</span></p></div></a>
                 </article>
                 <div class="petitephoto">
                     <article class="dame">
+                        <a href="#">
                         <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo notre dame de la garde">
-                        <div class="descriptionactivitepetite"><p><span>Notre-Dame-de-la-Garde</span></p></div>
+                        <div class="descriptionactivitepetite"><p><span>Notre-Dame-de-la-Garde</span></p></div></a>
                     </article>
                     <article class="longchamps">
+                        <a href="#">
                         <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo parc longchamp">
-                        <div class="descriptionactivitepetite"><p><span>Parc longchamps</span></p></div>
+                        <div class="descriptionactivitepetite"><p><span>Parc longchamps</span></p></div></a>
                     </article>
                 </div>    
             </section>    
         </section>
+        <!--........................................FOOTER......................................-->
         <footer class="footer">
             <article class="propos">
                 <h3>A propos</h3>
