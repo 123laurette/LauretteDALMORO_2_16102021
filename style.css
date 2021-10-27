@@ -7,6 +7,7 @@
 *
 {
         font-family: "Raleway", Impact, sans-serif;
+        color: black;
 }
 h1, h2, h3, .filtre, span, aside
 {
@@ -16,14 +17,6 @@ h1, h2, h3, .filtre, span, aside
 {
     height: 992px;
     width: 100%;
-}
-.lienhebergement
-{
-    margin-left: 65%;
-} 
-.lienactivite
-{    
-    margin-left: 8%;
 }
 .filtre
 {
@@ -134,10 +127,18 @@ h1, h2, h3, .filtre, span, aside
 .footer
 {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
+    height: 200px;
+    background-color: #f2f2f2;
+    margin-right: 20%;
+}
+.footer a
+{
+    line-height: 30px;
 }
 .logo img
 {
@@ -174,7 +175,6 @@ h1+p, .lieu, .filtre, .lienhebergement, .lienactivite, .nbrelogement, span, .sec
     background-color: white;
     border: white solid 6px;
     border-radius: 0px 0px 20px 20px;
-    padding-left: 0.em;
 }
 .soleil, .coeur, .bleublanc
 {
@@ -195,7 +195,7 @@ h1+p, .lieu, .filtre, .lienhebergement, .lienactivite, .nbrelogement, span, .sec
     width: 53%;
     padding-left: 0.5em;
     border-radius: 0px 20px 20px 0px;
-    bottom: 0%;
+    bottom: 0;
 } 
 .titrehebergement, aside
 {
@@ -231,10 +231,7 @@ h1+p, .lieu, .filtre, .lienhebergement, .lienactivite, .nbrelogement, span, .sec
     width: 234px;
     padding-left: 1em;
 }
-.footer
-{
-    height: 200px;
-}
+
 a
 {
     text-decoration: none;
@@ -266,3 +263,25 @@ i
     border: #deebff solid;
     align-items: center;
 }
+.lienheader
+{
+    display: flex;
+}
+.lienheader
+{
+    margin-left: 65%;
+    width: 18%;
+    justify-content: space-around;
+}
+.lienheader a:active
+{
+    text-decoration: overline;
+    color: #0065FC;
+}
+.hebergement
+{
+    display: flex;
+    height: 20%;
+    line-height: 0em;
+}
+
