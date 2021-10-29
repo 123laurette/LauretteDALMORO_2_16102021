@@ -1,22 +1,39 @@
 @font-face {
     font-family: Raleway;
-    src: url("font/Raleway-Regular.ttf")format("truetype");
-    font-weight: normal;
-    font-style: normal;
+    src: url("font/Raleway-Regular.ttf")format("truetype"),
+        url("font/Raleway-Italic-VariableFont_wght.ttf")format("truetype"),
+        url("font/Raleway-VariableFont_wght.ttf")format("truetype")
+        url("font/Raleway-ExtraBold.ttf")format("truetype");
 }
 *
 {
         font-family: "Raleway", Impact, sans-serif;
         color: black;
 }
-h1, h2, h3, .filtre, span, aside
+h1, h2
 {
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 800;
+}
+h3, .filtre,
+{
+    font-weight: 700;
+    font-size: 16px;
 }
 #bloc_page
 {
-    height: 992px;
-    width: 100%;
+    width: 992px;
+    height: 100%;
+}
+.logo img
+{
+    width: 100px;
+    height: 50px;
+    margin-left: 1em;
+}
+.header
+{
+    display: flex;
 }
 .filtre
 {
@@ -24,105 +41,6 @@ h1, h2, h3, .filtre, span, aside
     justify-content: space-between;
     margin-right: 50%;
     color: black;
-}
-.touthebergement
-{
-    background-color: #f2f2f2;
-    width: 60%;
-    height: 100%;
-    border-radius: 20px;
-    padding: 2em;
-}
-.plus_populaires
-{
-    background-color: #f2f2f2;
-    width: 25%;
-    height: 100%;
-    border-radius: 20px;
-    padding: 2em;
-    margin-left: 8em;
-    margin-right: 10em;
-}
-.cannebiere img, .port img, .mouettes img
-{
-    width: 250px;
-    height: 135px;
-    border-radius: 20px;
-}
-.premiereligne, .deuxiemeligne
-{
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-    height: 40%;
-    margin-bottom: 1em;
-    margin-right: 10em;
-    margin-left: 1em;
-}
-.mer img, .panier img, .amina img
-{
-    width: 250px;
-    height: 135px;
-    border-radius: 20px;
-}
-.soleil img, .coeur img, .bleublanc img
-{
-    width: 150px;
-    height: 120px;
-    border-radius: 20px;
-}
-.soleil, .coeur, .bleublanc
-{
-    display: flex;
-    flex-direction: row;
-}
-.description
-{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1em;
-}
-.populaire
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.vieuxport img, .calanques img
-{
-    width: 250px;
-    height: 290px;
-    border-radius: 20px;
-}
-.pomegues img, .frioul img, .dame img, .longchamps img
-{
-    width: 250px;
-    height: 140px;
-    border-radius: 20px;
-}
-.petitephoto
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.activite
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.sectionhebergementa
-{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2em;
-    height: 550px;
-}
-.propos, .hebergement, .assistance
-{
-    display: flex;
-    flex-direction: column;
 }
 .footer
 {
@@ -140,103 +58,11 @@ h1, h2, h3, .filtre, span, aside
 {
     line-height: 30px;
 }
-.logo img
-{
-    width: 100px;
-    height: 50px;
-    margin-left: 1em;
-}
-.header
-{
-    display: flex;
-}
-h1, h2
-{
-    font-size: 16px;
-}
-h1+p, .lieu, .filtre, .lienhebergement, .lienactivite, .nbrelogement, span, .sectionhebergementa, .footer
-{
-    font-size: 14px;
-}
-.cannebiere, .port, .mouettes, .mer, .panier, .amina
-{
-    position: relative;
-    border-radius: 20px;
-    height: 200px;
-    border:white 5px solid;
-    box-shadow: gray 6px 6px 6px;
-}
-.nomprix
-{
-    position: absolute;
-    top: 60%;
-    width: 240px;
-    height: 70px;
-    background-color: white;
-    border: white solid 6px;
-    border-radius: 0px 0px 20px 20px;
-}
-.soleil, .coeur, .bleublanc
-{
-    position: relative;
-    border-radius: 20px;
-    border: white solid 5px;
-    margin-bottom: 2em;
-    width: 87%;
-    box-shadow: gray 6px 6px 6px;
-}
-.description
-{
-    position: absolute;
-    background-color: white;
-    border: white solid 5px;
-    margin-left: 9em;
-    height: 96%;
-    width: 53%;
-    padding-left: 0.5em;
-    border-radius: 0px 20px 20px 0px;
-    bottom: 0;
-} 
-.titrehebergement, aside
-{
-    margin-left: 1.5em ;
-}
-.activitea
-{
-    margin-top: 5em;
-    height: 370px;
-}
-.vieuxport, .pomegues, .frioul, .calanques, .dame, .longchamps
-{
-    position: relative;
-    border-radius: 20px;
-    box-shadow: gray 6px 6px 6px;
-    margin-bottom: 1em;
-}
-.descriptionactivite
-{
-    position: absolute;
-    background-color: white;
-    border-radius: 0px 0px 20px 20px;
-    top: 82%;
-    width: 234px;
-    padding-left: 1em;
-}
-.descriptionactivitepetite
-{
-    position: absolute;
-    background-color: white;
-    border-radius: 0px 0px 20px 20px;
-    top: 64%;
-    width: 234px;
-    padding-left: 1em;
-}
-
+/*.........................................LIENS..................................*/
 a
 {
     text-decoration: none;
 }
-/*.........................................LIENS..................................*/
 .filtre a:hover
 {
     color: red;
@@ -278,10 +104,46 @@ i
     text-decoration: overline;
     color: #0065FC;
 }
+/*...................PHOTOS...............*/
+.photo
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    position: absolute;
+    line-height: 10%;
+    justify-content: center;
+    margin: 0%;
+}
+.description
+{
+    height: 40%;
+    width: 100%;
+    background-color: tomato;
+    line-height: 10%;
+    top: 90px;
+    margin-left: 2px;
+    position: absolute;
+}
 .hebergement
 {
     display: flex;
-    height: 20%;
-    line-height: 0em;
+    width: 30%;
+    height: 150px;
+border: red solid;
+    position: relative ;
+    margin-right: px;
+    margin-left: px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
-
+.photoettexte
+{
+    display: flex;
+    width: 50%;
+    height: 350px;
+    border: yellow solid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
