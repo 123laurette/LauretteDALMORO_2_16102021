@@ -2,12 +2,13 @@
 <html lang="en">
     <head>
         <meta charset= "utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel= "stylesheet" href= "style.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-        <title> PROJET 2 </title>
+        <title> BOOKI </title>
     </head>
     <body>
-        <div id="bloc_page">
+        <div id="bloc_page"></div>
             <!--................................HEADER...........................-->
         <header class="header">
             <div class="logo">
@@ -19,15 +20,16 @@
             </nav>
             <nav class="lienactivite">
                 <p><a href="#lienactive">Activités</a></p>
-            </nav></div>
+            </nav>
+            </div>
         </header>
         <!--......................................CHAMPS DES FILTRES..........................-->
-        <section class="sectionhebergement">
-            <div class="hebergement">
+        <section class="suiteheader">
+            <div class="trouvez">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
-            <div class="lieu">
+            <div class="rechercher">
                 <!--CHAMP DE SAISIE POUR LA VILLE DANS UN FORMULAIRE-->
                 <!-- a voir avec le formulaire   <p class="iconerecherche"><i class="fas fa-map-marker-alt"></i></p>-->
                 <p>Rechercher</p>
@@ -50,73 +52,77 @@
             </div>
         </section>
         <!--..................................EMPLACEMENT PHOTOS HEBERGEMENT..........................-->
-        <section class="sectionhebergementa">
-            <div class="touthebergement">
-                <div class="titrehebergement"><h2 id="lienheberg">Hébergements à Marseille</h2></div>
-                <section class="premiereligne">
-                    <article class="cannebiere"><a href="#"></a>
+        <section class="sectionhebergement">
+            <h2>Hébergements à Marseille</h2>
+                <div class="photoettexte">
+                    <article class="hebergement">
                         <a href="#">
-                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo Auberge La Cannebière">
-                        <div class="nomprix"><p><span>Auberge La Cannebière</span><br/>
-                        Nuit à partir de 25€</p></div></a>
-                    </article>    
-                    <article class="port">
+                        <div class="photo"><img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo Auberge La Cannevière"></div>
+                        <div class="description">
+                        <h4>Auberge La Cannebière</h4>
+                        <p>Nuit à partir de 25€</p></div></a>
+                    </article> 
+                    <article class="hebergement">
                         <a href="#">
-                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo Hotel du port">
-                        <div class="nomprix"><p><span>Hôtel du Port</span><br/>
-                        Nuit à partir de 52€</p></div></a>
+                        <div class="photo"><img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo Hotel du port"></div>
+                        <div class="description">
+                        <h4>Hôtel du Port</h4>
+                        <p>Nuit à partir de 52€</p></div></a>
                     </article>
-                    <article class="mouettes" >
+                    <article class="hebergement">
                         <a href="#">
-                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo Hotel les Mouettes">
-                        <div class="nomprix"><p><span>Hôtel Les Mouettes</span><br/>
-                        Nuit à partir de 76€</p></div></a>
+                        <div class="photo"><img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo Hotel les Mouettes"></div>
+                        <div class="description">
+                        <h4>Hôtel Les Mouettes</h4>
+                        <p>Nuit à partir de 76€</p></div></a>
                     </article>
-                </section>
-                <section class="deuxiemeligne">
-                    <article class="mer">
+                    <article class="hebergement">
                         <a href="#">
-                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo Hotel de la mer">
-                        <div class="nomprix"><p><span>Hôtel de la mer</span><br/>
-                        Nuit à partir de 46€</p></div></a>
+                        <div class="photo"><img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo Hotel de la mer"></div>
+                        <div class="description">
+                        <h4>Hôtel de la mer</h4>
+                        <p>Nuit à partir de 46€</p></div></a>
                     </article>
-                    <article class="panier">
+                    <article class="hebergement">
                         <a href="#">
-                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo Auberge le panier">
-                        <div class="nomprix"><p><span>Auberge Le Panier</span><br/>
-                        Nuit à partir de 23€</p></div></a>
+                        <div class="photo"><img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo Auberge le panier"></div>
+                        <div class="description">
+                        <h4>Auberge Le Panier</h4>
+                        <p>Nuit à partir de 23€</p></div></a>
                     </article>
-                    <article class="amina">
+                    <article class="hebergement">
                         <a href="#">
-                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo Hotel chez Amina">
-                        <div class="nomprix"><p><span>Hôtel Chez Amina</span><br/>
-                        Nuit à partir de 96€</p></div></a>
-                    </article>
-                </section>
+                        <div class="photo"><img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo Hotel chez Amina"></div>
+                        <div class="description">
+                        <h4>Hôtel Chez Amina</h4>
+                        <p>Nuit à partir de 96€</p></div></a>
+                    </article> 
+                </div>         
+        </section>         
                 <!--C EST UN LIEN VERS AUTRE CHOSE DONC SUREMENT A INTEGRER SOUS UNE AUTRE FORME-->
                 <aside>Afficher plus</aside>
-            </div>
+        
             <div class="plus_populaires">
                 <h2>Les plus populaires</h2>
                 <section class="populaire">
                     <article class="soleil">
                         <a href="#">
                         <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo Hotel le soleil du matin">
-                        <div class="description">
+                        <div class="">
                             <p><span>Hôtel le soleil du matin</span><br/>
                             Nuit à partir de 128€</p></div></a>    
                     </article>
                     <article class="coeur">
                         <a href="#">
                         <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo Au coeur de l'eau">
-                        <div class="description">
+                        <div class="on">
                             <p><span>Au coeur de l'eau<br/>Chambres d'hôtes</span><br/>
                             Nuit à partir de 71€</p></div></a>
                     </article>
                     <article class="bleublanc">
                         <a href="#">
                         <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo Hotel tout bleu et blanc">
-                        <div class="description">
+                        <div classion">
                             <p><span>Hôtel tout Bleu et Blanc</span><br/>
                             Nuit à partir de 68€</p></div></a>
                     </article>    
@@ -163,6 +169,7 @@
                 </div>    
             </section>    
         </section>
+    </body>    
         <!--........................................FOOTER......................................-->
         <footer class="footer">
             <article class="propos">
