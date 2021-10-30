@@ -60,7 +60,6 @@ a
 .filtre
 {
     display: flex;
-    justify-content: ;
     color: black;
     width: 100%;
     height: 40px;
@@ -275,7 +274,6 @@ aside
     height: 20%;
     width: 100%;
     background-color: white;
-    top: 200px;
 }
 .sectionactivite
 {
