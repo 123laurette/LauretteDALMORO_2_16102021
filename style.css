@@ -26,7 +26,7 @@ h3
     font-size: 16px;
     line-height: 50px;
 }
-
+/*................HEADER.....................*/
 .logo img
 {
     width: 80px;
@@ -42,11 +42,6 @@ h3
 {
     line-height: 25px;
     margin-left: 40px;
-}
-.rechercher
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 .nbrelogement
 {
@@ -77,6 +72,8 @@ a
     flex-direction: row;
     height: 45px;
     width: 410px;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 .iconerechercher
 {
@@ -183,9 +180,7 @@ a
     font-size: 16px;
     padding-right: 20px;
     justify-content: center;
-
 }
-
 .iconenbre i
 {
     display: flex;
@@ -202,9 +197,7 @@ a
 {
     display: flex;
     align-items: center;;
-
 }
-
 /*.................................PHOTOS...............................*/
 /*.........................HEBERGEMENTS A MARSEILLE.....................*/
 .bleu i
@@ -284,7 +277,6 @@ a
     border-radius: 20px;
     margin-left: 40px;
 }
-
 aside
 {
     font-weight: 700;
@@ -394,15 +386,7 @@ aside
     position: absolute;
     border-radius: 20px 20px 0 0;
 }
-.activitegrande 
-{
-    display: flex;
-    height: 100%;
-    width: 20%;
-    position: relative;
-    box-shadow: gray 6px 6px 15px;
-    border-radius: 20px;
-}
+
 .descriptiongrande
 {
     position: absolute;
@@ -414,15 +398,16 @@ aside
     border-radius: 0 0 20px 20px;
     padding-top: 10px;
 }
-.activitepomegue
+.activitegrande 
 {
     display: flex;
-    height: 45%;
-    width: 100%;
+    height: 100%;
+    width: 20%;
     position: relative;
     box-shadow: gray 6px 6px 15px;
     border-radius: 20px;
 }
+
 .descriptionpomegue
 {
     position: absolute;
@@ -432,6 +417,27 @@ aside
     background-color: white;
     padding-left: 20px;
     top: 142px;
+    padding-top: 10px;
+}
+.activitepomegue
+{
+    display: flex;
+    height: 45%;
+    width: 100%;
+    position: relative;
+    box-shadow: gray 6px 6px 15px;
+    border-radius: 20px;
+}
+
+.descriptionfrioul
+{
+    position: absolute;
+    height: 36px;
+    width: 93%;
+    background-color:white;
+    padding-left: 20px;
+    top: 110px;
+    border-radius: 0 0 20px 20px;
     padding-top: 10px;
 }
 .activitefrioul
@@ -444,14 +450,16 @@ aside
     box-shadow: gray 6px 6px 15px;
     border-radius: 20px;
 }
-.descriptionfrioul
+
+.descriptiondame
 {
     position: absolute;
     height: 36px;
-    width: 93%;
+    width: 97%;
     background-color:white;
-    padding-left: 20px;
-    top: 110px;
+    padding-left: 10px;
+    top: 120px;
+    padding-top: 10px;
     border-radius: 0 0 20px 20px;
     padding-top: 10px;
 }
@@ -465,28 +473,7 @@ aside
     box-shadow: gray 6px 6px 15px;
     border-radius: 20px;
 }
-.descriptiondame
-{
-    position: absolute;
-    height: 36px;
-    width: 97%;
-    background-color:white;
-    padding-left: 10px;
-    top: 120px;
-    padding-top: 10px;
-    border-radius: 0 0 20px 20px;
-    padding-top: 10px;
-}
-.activitelongchamp
-{
-    display: flex;
-    height: 45%;
-    width: 100%;
-    position: relative;
-    margin-top: 5px;
-    box-shadow: gray 6px 6px 15px;
-    border-radius: 20px;
-}
+
 .descriptionlongchamp
 {
     position: absolute;
@@ -497,6 +484,16 @@ aside
     top: 130px;
     padding-top: 10px;
     border-radius: 0 0 20px 20px;
+}
+.activitelongchamp
+{
+    display: flex;
+    height: 45%;
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+    box-shadow: gray 6px 6px 15px;
+    border-radius: 20px;
 }
 .deuxiemerang, .quatriemerang
 {
@@ -516,6 +513,7 @@ aside
     margin-top: 20px;
     margin-left: 40px;
 }
+/*....................FOOTER............................*/
 .footer
 {
     display: flex;
@@ -534,7 +532,6 @@ aside
     height: 100%;
     padding-left: 40px;
     padding-top: 25px;
-
 }
 .footer a
 {
