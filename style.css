@@ -31,7 +31,7 @@ h3
 {
     width: 80px;
     height: 40px;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-bottom: 5px;
 }
 .header
@@ -41,7 +41,7 @@ h3
 .suiteheader
 {
     line-height: 25px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .nbrelogement
 {
@@ -51,7 +51,7 @@ h3
 .lienheader
 {
     display: flex;
-    margin-left: 45%;
+    margin-left: 80%;
     width: 10%;
     justify-content: space-around;
     margin-top: 10px;
@@ -196,7 +196,7 @@ a
 .nbrelogement
 {
     display: flex;
-    align-items: center;;
+    align-items: center;
 }
 /*.................................PHOTOS...............................*/
 /*.........................HEBERGEMENTS A MARSEILLE.....................*/
@@ -221,7 +221,7 @@ a
 .photo img
 {
     display: flex;
-    height: 120px;
+    height: 130px;
     width: 100%;
     object-fit: cover; 
     border-radius: 20px 20px 0 0;
@@ -230,14 +230,13 @@ a
 {
     display: flex;
     flex-direction: column;
-    height: 70px;
+    height: 65px;
     width: 98%;
     border-radius: 0 0 20px 20px;
     background-color: white;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
     line-height: 20px;
-    justify-content: left;
 }
 .hebergement
 {
@@ -264,16 +263,12 @@ a
 .sectionhebergement
 {
     display: flex;
-    width: 60%;
-    height: 600px;
+    height: 500 px;
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 20px;
-    margin-top: 10px;
-    padding-top: 20px;
     background-color: #f2f2f2;
     border-radius: 20px;
-    margin-left: 40px;
+    margin-left: 50px;
+    padding-left: 40px;
 }
 aside
 {
@@ -286,209 +281,200 @@ aside
 {
     display: inline-flex;
     flex-direction: row;
-}
-.titrepop
-{
-    display: flex;
-    margin-left: 35px;
-    padding-top: 19px;
-    border: solid blue;
-}
-.titrepop i
-{
-    display: flex;
-    font-size: 20px;
-    margin-left: 260px;
-    margin-top: 20px;
-    border: red solid;
+    padding-top: 40px;
 }
 .photopop img
 {
-    height: 120px;
-    width: 50%;
-    object-fit: cover;    
+    display: flex;
+    object-fit: cover;
+    width: 225px;
+    height: 135px;
     border-radius: 20px 0 0 20px;
-    border: seagreen solid;
-    position: absolute
 }
 .descriptionpop
 {
+    width: 280px;
+    height: 125px;
     display: flex;
     flex-direction: column;
-    height: 120px;
-    width: 50%;
-    line-height: 15px;
     background-color: white;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 10px 10px 0;
+    padding-left: 20px;
+    padding-top: 10px;
     line-height: 20px;
-    border: solid yellow;
-    margin-left: 237px;
-    position: absolute;
     
 }
 .populaire
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 120px;
-    border: white solid 5px;
+    border: solid white 5px;
+    height: 135px;
+    width: 500px;
     border-radius: 20px;
     box-shadow: gray 6px 6px 15px;
-    border: solid red;
-    position: relative;
 }
 .bloc3photos
 {
     display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-    width: 80%;
-    height: 470px;
-    border: blue solid;
+    flex-direction: column;
+    width: 580px;
+    height: 500px;
+    align-items: center;
+    padding-bottom: 50px;
+    justify-content: space-between;
 }
-
-.sectionpopulaire
+.titrepop
 {
     display: flex;
-    width: 30%;
-    height: 620px;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-left: 35px;
-    margin-right: 0px;
+    align-items: center;
+    height: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.titrepop i
+{
+    font-size: 20px;
+    margin-left: 270px;
+    padding-top: 20px;
+}
+.sectionpopulaire
+{
+    height: 600px;
+    width: 580px;
     background-color: #f2f2f2;
+    margin-left: 40px;
+    margin-right: 50px;
     border-radius: 20px;
 }
 .hebergepop
 {
-    width: 100%;
     display: flex;
     flex-direction: row;
 }
 /*..............ACTIVITES................*/
 .titreactivite
 {
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 .photogrande img
 {
-    display: flex;
-    height: 96%;
+    height: 380px;
     width: 100%;
     object-fit: cover; 
-    position: absolute;
     border-radius: 20px 20px 0 0;
 }
-
 .descriptiongrande
 {
-    position: absolute;
-    height: 36px;
-    width: 92%;
+    width: 90%;
+    height: 30px;
     background-color: white;
     padding-left: 20px;
-    top: 344px;
     border-radius: 0 0 20px 20px;
-    padding-top: 10px;
+    line-height: 40px;
 }
 .activitegrande 
 {
-    display: flex;
     height: 100%;
-    width: 20%;
-    position: relative;
+    width: 24%;
     box-shadow: gray 6px 6px 15px;
-    border-radius: 20px;
+    border-radius: 20px 
 }
-
+.activitepomegue img
+{
+    object-fit: cover;
+    height: 160px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
 .descriptionpomegue
 {
-    position: absolute;
-    height: 36px;
-    width: 93%;
+    height: 30px;
+    width: 90%;
     border-radius: 0 0 20px 20px;
     background-color: white;
     padding-left: 20px;
-    top: 142px;
-    padding-top: 10px;
+    line-height: 40px;
+    
 }
 .activitepomegue
-{
-    display: flex;
-    height: 45%;
+{  
+    height: 200px;
     width: 100%;
-    position: relative;
     box-shadow: gray 6px 6px 15px;
-    border-radius: 20px;
+    border-radius: 20px
 }
-
+.activitefrioul img
+{
+    object-fit: cover;
+    height: 140px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
 .descriptionfrioul
 {
-    position: absolute;
-    height: 36px;
-    width: 93%;
+    height: 30px;
+    width: 90%;
     background-color:white;
     padding-left: 20px;
-    top: 110px;
     border-radius: 0 0 20px 20px;
-    padding-top: 10px;
+    line-height: 40px;
 }
 .activitefrioul
 {
-    display: flex;
-    height: 40%;
+    height: 180px;
     width: 100%;
-    position: relative;
-    margin-top: 37px;
     box-shadow: gray 6px 6px 15px;
-    border-radius: 20px;
+    border-radius: 20px
 }
-
+.activitedame img
+{
+    object-fit: cover;
+    height: 170px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
 .descriptiondame
 {
-    position: absolute;
-    height: 36px;
-    width: 97%;
+    height: 30px;
+    width: 90%;
     background-color:white;
-    padding-left: 10px;
-    top: 120px;
-    padding-top: 10px;
+    padding-left: 20px;
     border-radius: 0 0 20px 20px;
-    padding-top: 10px;
+    line-height: 40px;
 }
 .activitedame
 {
-    display: flex;
-    height: 42%;
+    height: 210px;
     width: 100%;
-    position: relative;
-    margin-bottom: 20px;
     box-shadow: gray 6px 6px 15px;
-    border-radius: 20px;
+    border-radius: 20px
 }
-
+.activitelongchamp img
+{
+    object-fit: cover;
+    height: 140px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
 .descriptionlongchamp
 {
-    position: absolute;
-    height: 36px;
-    width: 97%;
+    height: 30px;
+    width: 90%;
     background-color:white;
-    padding-left: 10px;
-    top: 130px;
-    padding-top: 10px;
+    padding-left: 20px;
     border-radius: 0 0 20px 20px;
+    line-height: 40px;
+    
 }
 .activitelongchamp
 {
-    display: flex;
-    height: 45%;
+    height: 180px;
     width: 100%;
-    position: relative;
-    margin-top: 5px;
-    box-shadow: gray 6px 6px 15px;
-    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: gray 6px 0 15px;
+    border-radius: 20px
 }
 .deuxiemerang, .quatriemerang
 {
@@ -498,22 +484,29 @@ aside
     height: 100%;
     justify-content: space-between;
 }
-.sectionactivite
+.blocphoto
 {
     display: flex;
-    width: 61%;
-    height: 390px;
+    height: 420px;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sectionactivite
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 /*....................FOOTER............................*/
 .footer
 {
     display: flex;
     flex-direction: row;
-    width: 65%;
+    width: 100%;
     height: 200px;
     background-color: #f2f2f2;
     margin-top: 50px;
@@ -523,7 +516,7 @@ aside
 {
     display: flex;
     justify-content: space-between;
-    width: 78%;
+    width: 60%;
     height: 100%;
     padding-left: 40px;
     padding-top: 25px;
