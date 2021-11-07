@@ -73,7 +73,8 @@ a
     height: 45px;
     width: 410px;
     margin-top: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px; 
+    border:green solid
 }
 .iconerechercher
 {
@@ -93,17 +94,51 @@ a
     padding-left: 10px;
     border: #f2f2f2 solid;
 }
+button
+{
+    background: none;
+    border: none;
+}
 .bouton
 {
-    display: flex;
+    display: none;
     background-color :#0065FC;
     color: white;
     height: 100%;
     width: 110px;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0px 15px 15px 0px;
     font-weight: 700;
     justify-content: center;
     align-items: center;
+    
+}
+.iconebouton i
+{
+    display: flex;
+    background-color :#0065FC;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    width: 50px;
+    border-radius: 15px 15px 15px 15px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+.titreetlien
+{
+    display: flex;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.titrefiltre
+{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
     
 }
 .filtre
@@ -111,12 +146,11 @@ a
     display: flex;
     width: 40%;
     height: 40px;
+    margin-left: 20px;
     align-items: center;
-    margin-bottom: 30px;
     font-weight: 700;
     font-size: 100px;
     justify-content: space-between;
-
 }
 .filtre a:hover
 {
@@ -197,6 +231,7 @@ a
 {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 /*.................................PHOTOS...............................*/
 /*.........................HEBERGEMENTS A MARSEILLE.....................*/
@@ -241,7 +276,7 @@ a
 .hebergement
 {
     display: flex;
-    width: 30%;
+    width: 370px;
     height: 180px;
     margin-right: 30px;
     padding-bottom: 15px;
@@ -264,11 +299,12 @@ a
 {
     display: flex;
     height: 500 px;
+    width: 1300px;
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-left: 50px;
-    padding-left: 40px;
+    padding-left: 55px;
 }
 aside
 {
@@ -282,6 +318,12 @@ aside
     display: inline-flex;
     flex-direction: row;
     padding-top: 40px;
+}
+.etoilepopcoeur
+{
+    display: inline-flex;
+    flex-direction: row;
+    padding-top: 20px;
 }
 .photopop img
 {
@@ -532,7 +574,7 @@ aside
     {
         width: 100%;
     }
-    /*........................HEADER......................*/
+    /*.....................HEADER TABLETTE......................*/
     .lienheader
     {
         margin-left: 50%;
@@ -550,14 +592,15 @@ aside
         text-decoration: underline;
         color:#0065FC;
     }
-    /*.........................SUITE HEADER.....................*/
+    /*.....................SUITE HEADER TABLETTE.....................*/
     .suiteheader
     {
         width: 100%;
         margin-top: 25px;
         text-align: center;
         padding-bottom: 20px;
-        margin-left: 0;
+        margin-left: 0px;
+        padding-left: ;
     }
     .rechercher
     {
@@ -567,8 +610,8 @@ aside
     
     .filtre
     {
-        width: 100%;
-        justify-content: center;
+        width: 80%;
+        margin-left: 100px;
     }
     .iconeeconomique i
     {
@@ -594,7 +637,7 @@ aside
     {
         justify-content: center;
     }
-    /*...........................HEBERGEMENTS...................*/
+    /*....................HEBERGEMENTS TABLETTE...................*/
     .hebergepop
     {
         flex-direction: column;
@@ -629,7 +672,7 @@ aside
         margin-left: 30px;
         margin-right: 50px;
     }
-    /*................................POPULAIRES.............*/
+    /*.......................POPULAIRES TABLETTE.............*/
     .photopop img
     {
         width: 100%;
@@ -638,7 +681,7 @@ aside
     }
     .descriptionpop
     {
-        width: 90%;
+        width: 92%;
         height: 150px;
         height: 110px;
         border-radius: 0 0 10px 10px;
@@ -692,7 +735,7 @@ aside
     {
         flex-direction: column-reverse;
     }
-    /*.................................ACTIVITES.................*/
+    /*.......................ACTIVITES TABLETTE.................*/
     .titreactivite
     {
         text-align: center;
@@ -763,7 +806,7 @@ aside
     {
         padding-left: 10px
     }
-    /*...................................FOOTER.....................*/
+    /*..........................FOOTER TABLETTE.....................*/
     .footer
     {
         margin-top: 50px;
@@ -778,4 +821,175 @@ aside
         margin-left: 40px;
     }
 }
+    /*.....................MOBILE................*/
+@media screen and (max-width: 767px) and (min-width: 375px)
+{
+    .body
+    {
+        width: 100ù;
+    }
+    /*..................HEADER MOBILE.................*/
+    .header
+    {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .logo img
+    {
+        width: 100px;
+        height: 50px;
+    }
+    .lienheader
+    {
+        margin: 0%;
+        width: 70%;
+        height: 30px;
+        font-size: 18px;
+    }
+    .lienheader a:active
+    {
+        text-decoration: none ;
+        border-bottom: solid #0065FC 3px;
+        padding: 15px;
+    }
+    /*...........SUITE HEADER MOBILE.............*/
+    .suiteheader
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 460px;
+    }
+    .bouton
+    {
+    display: none;
+    }
+    .iconebouton
+    {
+        display: flex;
+        align-content: stretch;
+    }
+    .titreetlien
+    {
+        flex-direction: column;
+        height: 225px;
+        margin: 0%;
+        margin-bottom: 20px;
+    }
+    .titrefiltre
+    {
+        font-weight: 800;
+        font-size: 16px;
+        width: 60px;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .filtre
+    {
+        width: 80%;
+        height: 180px;
+        flex-wrap: wrap;
+        margin-left: 0%;
+    }
+    .lienfiltre
+    {
+        height: 45px;
+    }
+    .nbrelogement
+    {
+    margin: 0%;
+    padding: 0%;
+    }
     
+  /*..................POPULAIRES MOBILE..............*/
+    .hebergepop
+    {
+        flex-direction: row-reverse;
+        margin-top: 20px;
+        margin: 0%;
+        padding: 0%;
+        border: red solid;
+    }
+    .photopop img
+    {
+        width: 170px;
+    }
+    .descriptionpop
+    {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .populaire
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .bloc3photos
+    {
+        width: 90%;
+        height: 500px;
+        margin-left: 20px;
+        padding-bottom: 0px;
+        justify-content: center;
+    }
+    .titrepop
+    {
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .titrepop i
+    {
+        margin-left: 190px;
+    }
+    .sectionpopulaire
+    {
+        width: 100%;
+        margin-left: 0%;
+        border-radius: 0%;
+    }
+    .hebergepop
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /*.............HEBERGEMENT MOBILE.............*/
+    .sectionhebergement
+{
+        height: 1450px;
+        width: 100%;
+        border-radius: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 20px;
+        background-color: transparent;
+        border: springgreen solid;
+}
+.hebergement
+{
+    display: flex;
+        width: 80%;
+        margin-bottom: 20px;
+}
+#lienheberg
+{
+    margin-left: 10px;
+}
+.bloc6photos
+{
+    display: flex;
+    width: 100%;
+    height: 470px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+        margin-left: 10px;
+}
+
+aside
+{
+    font-weight: 700;
+    font-size: 18px;
+        margin-top: 900px;
+        margin-left: 10px;
+}
