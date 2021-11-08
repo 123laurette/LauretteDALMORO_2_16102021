@@ -74,7 +74,6 @@ a
     width: 410px;
     margin-top: 20px;
     margin-bottom: 20px; 
-    border:green solid
 }
 .iconerechercher
 {
@@ -101,7 +100,7 @@ button
 }
 .bouton
 {
-    display: none;
+    display: flex;
     background-color :#0065FC;
     color: white;
     height: 100%;
@@ -114,7 +113,7 @@ button
 }
 .iconebouton i
 {
-    display: flex;
+    display: none;
     background-color :#0065FC;
     color: white;
     font-size: 15px;
@@ -276,7 +275,7 @@ button
 .hebergement
 {
     display: flex;
-    width: 370px;
+    width: 30%;
     height: 180px;
     margin-right: 30px;
     padding-bottom: 15px;
@@ -299,12 +298,12 @@ button
 {
     display: flex;
     height: 500 px;
-    width: 1300px;
+    width: 70%;
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-left: 50px;
-    padding-left: 55px;
+    padding-left: 40px;
 }
 aside
 {
