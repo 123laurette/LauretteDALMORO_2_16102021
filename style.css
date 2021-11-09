@@ -74,8 +74,8 @@ a
     flex-direction: row;
     height: 45px;
     width: 410px;
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 .iconerechercher
 {
@@ -105,12 +105,14 @@ button
     display: flex;
     background-color :#0065FC;
     color: white;
+    margin-bottom: 20px;
     height: 100%;
     width: 110px;
     border-radius: 0px 15px 15px 0px;
     font-weight: 700;
     justify-content: center;
     align-items: center;
+    margin-left: -10px;
     
 }
 .iconebouton i
@@ -125,6 +127,7 @@ button
     font-weight: 700;
     justify-content: center;
     align-items: center;
+    margin-left: -10px;
 }
 .titreetlien
 {
@@ -802,12 +805,13 @@ aside
     }
     .lienheader a:active
     {
-        text-decoration: none ;
+        text-decoration: none;
         border-bottom: solid #0065FC 3px;
         padding-bottom: 10px;
         padding-left: 40px;
         padding-right: 40px;
         width: 500px;
+        border-top: none;
     }
     /*...........SUITE HEADER MOBILE.............*/
     .suiteheader
