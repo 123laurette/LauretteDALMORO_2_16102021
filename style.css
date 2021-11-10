@@ -291,11 +291,10 @@ button
     border-radius: 20px;
     box-shadow: gray 6px 6px 15px;
 }
-
 .bloc6photos
 {
     display: flex;
-    width: 98%;
+    width: 100%;
     height: 470px;
     flex-wrap: wrap;
     padding-top: 20px;
@@ -572,6 +571,18 @@ aside
 {
     line-height: 30px;
 }
+/*..............PETITE RESOLUTION.....................*/
+@media screen and (max-width: 1680px) and (min-width: 1440px)
+{
+    .hebergement
+    {
+        width: 27%;
+    }
+    .filtre
+    {
+    width: 60%;
+    }   
+}
 /*.....................TABLETTE................*/
 @media screen and (max-width: 992px) and (min-width: 768px)
 {
@@ -621,28 +632,37 @@ aside
     }
     .filtre
     {
-        width: 80%;
-        margin-left: 20px;
+        width: 79%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .lienfiltre
+    {
+        margin-left: 0px;
     }
     .iconeeconomique i
     {
         width: 40px;
         height: 40px;
+        margin-right: 2px;
     }
     .iconefamilial i
     {
         width: 40px;
         height: 40px;
+        margin-right: 2px;
     }
     .iconeromantique i
     {
         width: 40px;
         height: 40px;
+        margin-right: 2px;
     }
     .iconeanimaux i
     {
         width: 40px;
         height: 40px;
+        margin-right: 2px;
     }
     .nbrelogement
     {
@@ -676,7 +696,7 @@ aside
     }
     .sectionhebergement
     {
-        width: 91%;
+        width: 90%;
         height: 600px;
         margin-top: 30px;
         margin-bottom: 0px;
@@ -772,7 +792,7 @@ aside
     }
 }    
     /*.....................MOBILE................*/
-@media screen and (max-width: 767px) and (min-width: 375px)
+@media screen and (max-width: 767.99px) and (min-width: 375px)
 {
     .body
     {
@@ -921,7 +941,7 @@ aside
     .sectionhebergement
     {
         height: 1450px;
-        width: 98%;
+        width: 94%;
         border-radius: 0px;
         margin-left: 0px;
         padding-left: 0px;
@@ -962,6 +982,17 @@ aside
         margin: 0%;
         padding: 0%
     }
+    .activitegrande
+    {
+        width: 84%;
+        height: 190px;
+        margin: 0%;
+        padding: 0%;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
     .deuxiemerang, .quatriemerang
     {
         width: 98%;
@@ -978,9 +1009,9 @@ aside
         justify-content: flex-start;
         padding-top: 20px;
     }
-    .activitegrande, .activitepomegue, .activitefrioul, .activitedame, .activitelongchamp
+    .activitepomegue, .activitefrioul, .activitedame, .activitelongchamp
     {
-        width: 83%;
+        width: 86%;
         height: 190px;
         margin: 0%;
         padding: 0%;
@@ -1005,7 +1036,7 @@ aside
         height: 40px;
         width: 96%;
     }
-/*....................FOOTER............................*/
+/*....................FOOTER MOBILE............................*/
     .footer
     {
             height: 420px;
