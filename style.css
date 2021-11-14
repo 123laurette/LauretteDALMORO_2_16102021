@@ -173,43 +173,7 @@ button
 {
     color: red;
 }
-.iconeeconomique i
-{
-    display: flex;
-    border-radius: 50%;
-    background-color: #deebff;
-    color: #0065FC;
-    margin-right: 20px;
-    width: 45px;
-    height: 45px;
-    align-items: center;
-    justify-content: center;
-}
-.iconefamilial i
-{
-    display: flex;
-    border-radius: 50%;
-    background-color: #deebff;
-    color: #0065FC;
-    margin-right: 15px;
-    width: 45px;
-    height: 45px;
-    align-items: center;
-    justify-content: center;
-}
-.iconeromantique i
-{
-    display: flex;
-    border-radius: 50%;
-    background-color: #deebff;
-    color: #0065FC;
-    margin-right: 15px;
-    width: 45px;
-    height: 45px;
-    align-items: center;
-    justify-content: center;
-}
-.iconeanimaux i
+.iconefiltre i
 {
     display: flex;
     border-radius: 50%;
@@ -301,7 +265,7 @@ button
     flex-direction: column;
     border: white solid 5px;
     border-radius: 20px;
-    box-shadow:#e2dfdf  4px 6px 6px;
+    box-shadow: rgb(185, 184, 184) 0px 0px 13px 0.1px;
 }
 .bloc6photos
 {
@@ -369,7 +333,7 @@ aside
     width: 80%;
     padding-bottom: 0%;
     border-radius: 20px;
-    box-shadow:#e2dfdf  4px 6px 6px;
+    box-shadow: rgb(185, 184, 184) 0px 0px 13px 0.1px;
 }
 .bloc3photos
 {
@@ -415,6 +379,15 @@ aside
     margin-left: 50px;
     margin-top: 20px;
 }
+.descriptionactivite
+{
+    height: 30px;
+    width: 90%;
+    border-radius: 0 0 20px 20px;
+    background-color: white;
+    padding-left: 20px;
+    line-height: 40px;
+}
 .photogrande img
 {
     height: 380px;
@@ -422,20 +395,11 @@ aside
     object-fit: cover; 
     border-radius: 20px 20px 0 0;
 }
-.descriptiongrande
-{
-    width: 90%;
-    height: 30px;
-    background-color: white;
-    padding-left: 20px;
-    border-radius: 0 0 20px 20px;
-    line-height: 40px;
-}
 .activitegrande 
 {
     height: 100%;
     width: 24%;
-    box-shadow:#e2dfdf  4px 6px 6px;
+    box-shadow: rgb(185, 184, 184) 0px 0px 13px 0.1px;
     border-radius: 20px 
 }
 .activitepomegue img
@@ -445,44 +409,25 @@ aside
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
-.descriptionpomegue
-{
-    height: 30px;
-    width: 90%;
-    border-radius: 0 0 20px 20px;
-    background-color: white;
-    padding-left: 20px;
-    line-height: 40px;
-    
-}
 .activitepomegue
 {  
     height: 200px;
     width: 100%;
-    box-shadow:#e2dfdf  4px 6px 6px;
+    box-shadow: rgb(185, 184, 184) 0px 0px 13px 0.1px;
     border-radius: 20px
 }
-.activitefrioul img
+.activitefrioul img, .activitelongchamp img
 {
     object-fit: cover;
     height: 140px;
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
-.descriptionfrioul
-{
-    height: 30px;
-    width: 90%;
-    background-color:white;
-    padding-left: 20px;
-    border-radius: 0 0 20px 20px;
-    line-height: 40px;
-}
-.activitefrioul
+.activitefrioul, .activitelongchamp
 {
     height: 180px;
     width: 100%;
-    box-shadow:#e2dfdf  4px 6px 6px;
+    box-shadow: rgb(185, 184, 184) 0px 0px 13px 0.1px;
     border-radius: 20px
 }
 .activitedame img
@@ -492,45 +437,11 @@ aside
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
-.descriptiondame
-{
-    height: 30px;
-    width: 90%;
-    background-color:white;
-    padding-left: 20px;
-    border-radius: 0 0 20px 20px;
-    line-height: 40px;
-}
 .activitedame
 {
     height: 210px;
     width: 100%;
-    box-shadow:#e2dfdf  4px 6px 6px;
-    border-radius: 20px
-}
-.activitelongchamp img
-{
-    object-fit: cover;
-    height: 140px;
-    width: 100%;
-    border-radius: 20px 20px 0 0;
-}
-.descriptionlongchamp
-{
-    height: 30px;
-    width: 90%;
-    background-color:white;
-    padding-left: 20px;
-    border-radius: 0 0 20px 20px;
-    line-height: 40px;
-    
-}
-.activitelongchamp
-{
-    height: 180px;
-    width: 100%;
-    margin-top: 20px;
-    box-shadow:#e2dfdf  4px 6px 6px;
+    box-shadow: rgb(185, 184, 184) 0px 0px 13px 0.1px;
     border-radius: 20px
 }
 .deuxiemerang, .quatriemerang
@@ -551,7 +462,6 @@ aside
     margin-left: 50px;
     margin-right: 50px;
 }
-
 .sectionactivite
 {
     display: flex;
@@ -625,7 +535,7 @@ aside
         margin-right: 1%;
         margin-top: 3%;
     }
-    .descriptiondame, .descriptiongrande
+    .descriptionactivite
     {
         line-height: 15px;
     }
@@ -677,32 +587,14 @@ aside
     .filtre
     {
         width: 79%;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 10px;
     }
     .lienfiltre
     {
         margin-left: 0px;
     }
-    .iconeeconomique i
-    {
-        width: 40px;
-        height: 40px;
-        margin-right: 2px;
-    }
-    .iconefamilial i
-    {
-        width: 40px;
-        height: 40px;
-        margin-right: 2px;
-    }
-    .iconeromantique i
-    {
-        width: 40px;
-        height: 40px;
-        margin-right: 2px;
-    }
-    .iconeanimaux i
+    .iconefiltre i
     {
         width: 40px;
         height: 40px;
@@ -807,7 +699,6 @@ aside
         margin-bottom: 0%;
         padding-bottom: 0%;
         margin-left: 5%;
-        
     }
     .sectionpopulaire
     {
@@ -838,9 +729,9 @@ aside
         flex-direction: column-reverse;
     }
     /*.......................ACTIVITES TABLETTE.................*/
-    .descriptiongrande, .descriptionpomegue, .descriptionfrioul, .descriptiondame,.descriptionlongchamp
+    .descriptionactivite
     {
-        height: 40px;
+        height: 30px;
         width: 100%;
         line-height: 15px;
         padding-top: 10px;
@@ -958,7 +849,6 @@ aside
         flex-wrap: wrap;
         margin: 0%;
         padding: 0%;
-
     }
     .lienfiltre
     {
@@ -1010,7 +900,7 @@ aside
     .sectionhebergement
     {
         flex-direction: column;
-        height: 1500px;
+        height: 1600px;
         width: 100%;
         border-radius: 0px;
         padding: 0%;
@@ -1029,7 +919,7 @@ aside
     }
     .bloc6photos
     {
-        height: 98%;
+        height: 1500px;
         width: 80%;
         flex-wrap: nowrap;
         padding: 0%;
@@ -1102,7 +992,7 @@ aside
         height: 140px;
         width: 100%;
     }
-    .descriptiongrande, .descriptionpomegue, .descriptionfrioul, .descriptiondame, .descriptionlongchamp
+    .descriptionactivite
     {
         padding-left: 10px;
         height: 40px;
