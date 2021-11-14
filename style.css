@@ -26,6 +26,10 @@ h3
     line-height: 50px;
 }
 /*................HEADER.....................*/
+h1
+{
+    margin-bottom: 8px;
+}
 .logo img
 {
     width: 80px;
@@ -292,7 +296,7 @@ button
     flex-direction: column;
     border: white solid 5px;
     border-radius: 20px;
-    box-shadow: gray 6px 6px 15px;
+    box-shadow:#e2dfdf  4px 6px 6px;
 }
 .bloc6photos
 {
@@ -360,7 +364,7 @@ aside
     width: 80%;
     padding-bottom: 0%;
     border-radius: 20px;
-    box-shadow: gray 6px 6px 15px;
+    box-shadow:#e2dfdf  4px 6px 6px;
 }
 .bloc3photos
 {
@@ -426,7 +430,7 @@ aside
 {
     height: 100%;
     width: 24%;
-    box-shadow: gray 6px 6px 15px;
+    box-shadow:#e2dfdf  4px 6px 6px;
     border-radius: 20px 
 }
 .activitepomegue img
@@ -450,7 +454,7 @@ aside
 {  
     height: 200px;
     width: 100%;
-    box-shadow: gray 6px 6px 15px;
+    box-shadow:#e2dfdf  4px 6px 6px;
     border-radius: 20px
 }
 .activitefrioul img
@@ -473,7 +477,7 @@ aside
 {
     height: 180px;
     width: 100%;
-    box-shadow: gray 6px 6px 15px;
+    box-shadow:#e2dfdf  4px 6px 6px;
     border-radius: 20px
 }
 .activitedame img
@@ -496,7 +500,7 @@ aside
 {
     height: 210px;
     width: 100%;
-    box-shadow: gray 6px 6px 15px;
+    box-shadow:#e2dfdf  4px 6px 6px;
     border-radius: 20px
 }
 .activitelongchamp img
@@ -521,7 +525,7 @@ aside
     height: 180px;
     width: 100%;
     margin-top: 20px;
-    box-shadow: gray 6px 0 15px;
+    box-shadow:#e2dfdf  4px 6px 6px;
     border-radius: 20px
 }
 .deuxiemerang, .quatriemerang
@@ -814,7 +818,7 @@ aside
     }
     .titrepop
     {
-        width: 100%;
+        width: 80%;
         padding-top: 1%;
         padding-bottom: 0;
         margin-left: 8%;
@@ -872,7 +876,7 @@ aside
     .header
     {
         flex-direction: column;
-        width: 100%;
+        width: 99%;
         margin: 0%;
         align-items: center;
     }
@@ -910,9 +914,9 @@ aside
     /*...........SUITE HEADER MOBILE.............*/
     .suiteheader
     {
-        margin-left: 30px;
-        margin-right: 30px;
-        height: 460px;
+        margin-left: 20px;
+        margin-right: 25px;
+        height: 500px;
     }
     .bouton
     {
@@ -922,13 +926,18 @@ aside
     {
         display: flex;
     }
+    .rechercher
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
     .titreetlien
     {
         flex-direction: column;
-        height: 225px;
+        height: 240px;
+        width: 100%;
         margin: 0%;
-        margin-right: 25px;
-        margin-bottom: 20px;
+        padding: 0%;
     }
     .titrefiltre
     {
@@ -945,7 +954,8 @@ aside
         height: 180px;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-left: 0%;
+        margin: 0%;
+        padding: 0%;
 
     }
     .lienfiltre
@@ -964,7 +974,7 @@ aside
     .hebergepop
     {
         flex-direction: column-reverse;
-        margin-top: 20px;
+        margin-top: 18px;
         margin: 0%;
         padding: 0%;
         margin-top: 40px;
@@ -972,7 +982,7 @@ aside
     .bloc3photos
     {
         width: 100%;
-        height: 78%;
+        height: 77%;
         padding: 0%;
         margin: 0%;
     }
@@ -980,7 +990,7 @@ aside
     {
         padding-bottom: 30px;
         padding-top: 20px;
-        padding-left: 40px;
+        margin-left: 5px;
     }
     .titrepop i
     {
@@ -990,7 +1000,8 @@ aside
     {
         width: 100%;
         height: 625px;
-        margin-left: 0%;
+        margin: 0%;
+        padding: 0%;
         border-radius: 0%;
     }
     /*.............HEBERGEMENT MOBILE.............*/
@@ -1012,58 +1023,57 @@ aside
     }
     #lienheberg
     {
-        margin-left: 35px;
+        margin-left: 40px;
     }
     .bloc6photos
     {
-        height: 100%;
+        height: 98%;
+        width: 80%;
         flex-wrap: nowrap;
         padding: 0%;
-        margin: 0%;
-        margin-left: 35px;
-        margin-right: 45px;
+        margin-left: 40px;
+        margin-right: 0px;
         margin-top: 6%;
     }
     aside
     {
-        padding-top: 30px;
-        margin-left: 35px;
+        padding-top: 25px;
+        margin-left: 45px;
     }
 /*..................ACTIVITES MOBILE...................*/
     .titreactivite
     {
         margin: 0%;
-        margin-left: 35px;
+        margin-left: 45px;
         margin-top: 40px;
         margin-bottom: 10px;
     }
     .sectionactivite
     {
-        width: 100%;
+        width: 99%;
         margin: 0%;
-        padding: 0%
+        padding: 0%;
     }
     .activitegrande
     {
-        width: 84%;
+        width: 81%;
         height: 180px;
-        margin: 0%;
         padding: 0%;
-        margin-bottom: 20px;
-        margin-left: 30px;
-        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-left: 45px;
+        margin-right: 0px;
         flex-direction: column;
     }
     .deuxiemerang, .quatriemerang
     {
-        width: 98%;
-        height: 400px;
-        margin: 0%;
+        width: 99%;
+        height: 385px;
         padding: 0%;
+        margin-bottom: 28px;
     }
     .blocphoto
     {
-        height: 1300px;
+        height: 1250px;
         width: 100%;
         flex-direction: column;
         margin: 0%;
@@ -1072,13 +1082,12 @@ aside
     }
     .activitepomegue, .activitefrioul, .activitedame, .activitelongchamp
     {
-        width: 86%;
+        width: 82%;
         height: 180px;
         margin: 0%;
         padding: 0%;
-        margin-bottom: 20px;
-        margin-left: 30px;
-        margin-right: 20px;
+        margin-left: 45px;
+        margin-right: 0px;
         flex-direction: column;
     }
     .activitepomegue img, .activitefrioul img, .activitedame img, .activitelongchamp img
@@ -1114,4 +1123,5 @@ aside
     {
         line-height: 25px;
     }
+    
 }
