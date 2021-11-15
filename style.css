@@ -163,7 +163,7 @@ button
     display: flex;
     width: 50%;
     margin-left: 2%;
-    height: 40px;
+    height: 39px;
     align-items: center;
     font-weight: 700;
     font-size: 100px;
@@ -179,9 +179,9 @@ button
     border-radius: 50%;
     background-color: #deebff;
     color: #0065FC;
-    margin-right: 15px;
-    width: 45px;
-    height: 45px;
+    margin-right: 17px;
+    width: 40px;
+    height: 40px;
     align-items: center;
     justify-content: center;
 }
@@ -190,7 +190,7 @@ button
     display: flex;
     height: 100%;
     border-radius: 40px/40px;
-    border: #f2f2f2 solid 2px;
+    border: #f2f2f2 solid;
     align-items: center;
     font-size: 16px;
     padding-right: 20px;
@@ -758,7 +758,7 @@ aside
     }
 }    
     /*.....................MOBILE................*/
-@media screen and (max-width: 767.99px) and (min-width: 375px)
+@media screen and (max-width: 767.99px)
 {
     .body
     {
@@ -808,7 +808,7 @@ aside
     {
         margin-left: 20px;
         margin-right: 25px;
-        height: 500px;
+        height: 550px;
     }
     .bouton
     {
