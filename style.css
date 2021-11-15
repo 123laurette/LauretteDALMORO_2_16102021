@@ -161,9 +161,9 @@ button
 .filtre
 {
     display: flex;
-    width: 70%;
+    width: 50%;
+    margin-left: 2%;
     height: 40px;
-    margin-left: 5%;
     align-items: center;
     font-weight: 700;
     font-size: 100px;
@@ -259,7 +259,6 @@ button
     display: flex;
     width: 27%;
     height: 180px;
-    margin-right: 5%;
     padding-bottom: 1%;
     font-size: 14px;
     flex-direction: column;
@@ -279,13 +278,13 @@ button
 .sectionhebergement
 {
     display: flex;
-    width: 70%;
+    width: 100%;
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-left: 2.3%;
-    padding-left: 5%;
-    padding-right: 40px;
+    padding-left: 3.5%;
+    padding-right: 3%px;
 }
 aside
 {
