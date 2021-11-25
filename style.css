@@ -269,8 +269,7 @@ button
 }
 .hebergement:hover
 {
-    box-shadow: rgb(73, 72, 72) 0px 0px 13px 0.1px;
-    border: grey solid 6px;
+    box-shadow: rgb(73, 72, 72) 0px 8px 15px 0.1px;
 }
 
 .bloc6photos
@@ -343,8 +342,7 @@ aside
 }
 .populaire:hover
 {
-    box-shadow: rgb(73, 72, 72) 0px 0px 13px 0.1px;
-    border: grey solid 5px;
+    box-shadow: rgb(73, 72, 72) 0px 8px 15px 0.1px;
 }
 .bloc3photos
 {
@@ -481,8 +479,7 @@ aside
 }
 .lienactivite:hover
 {
-    box-shadow: rgb(73, 72, 72) 0px 0px 13px 0.1px;
-    border: grey solid 4px;
+    box-shadow: rgb(73, 72, 72) 0px 8px 15px 0.1px;
     border-radius: 24px;
 }
 /*....................FOOTER............................*/
