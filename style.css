@@ -2,7 +2,7 @@
     font-family: Raleway;
     src: url("font/Raleway-Regular.ttf")format("truetype"),
         url("font/Raleway-Italic-VariableFont_wght.ttf")format("truetype"),
-        url("font/Raleway-VariableFont_wght.ttf")format("truetype")
+        url("font/Raleway-VariableFont_wght.ttf")format("truetype"),
         url("font/Raleway-ExtraBold.ttf")format("truetype");
 }
 *
@@ -291,7 +291,7 @@ button
     border-radius: 20px;
     margin-left: 2.3%;
     padding-left: 3.5%;
-    padding-right: 3%px;
+    padding-right: 3%;
 }
 aside
 {
